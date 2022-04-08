@@ -24,4 +24,4 @@ select * from products_orders_association;
 select firstname, lastname from store.customers;
 select productManufacturer, productName from products;
 select product, cost from store.orders;
-select products_id, orders_id from products_orders_association;
+select id, products_id, orders_id from products_orders_association;
